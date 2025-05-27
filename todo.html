@@ -1,0 +1,125 @@
+<!--<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name=" view port" content ="width=device-width,initial-scale=1.0">
+        <title>Todo App</title>
+        <link rel ="stylesheet" href="todo.css">
+        <script  src="todo.js"></script>
+    </head>
+    <body>
+        <h1>TODO APP</h1>
+        <div class="wrapper">
+          <form>
+            <input id="todo-input" type="text" placeholder="Write anything and hit enter" autocomplete="off">
+            <button id="add-button" type="submit">ADD</button>
+          </form>
+      
+          <ul id="todo-list">
+            <li class="todo">
+              <input type="checkbox" id="todo-1" class="hidden-checkbox">
+              <label class="custom-checkbox" for="todo-1">
+                <span class="checkmark">✔</span>
+              </label>
+              <label for="todo-1" class="todo-text">
+                cycling
+              </label>
+              <button class="delete-button">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6l-1 14H6L5 6"></path>
+                    <path d="M10 11v6"></path>
+                    <path d="M14 11v6"></path>
+                    <path d="M9 6V4h6v2"></path>
+                  </svg>
+                </svg>
+              </button>
+            </li> 
+            <li class="todo">
+                <input type="checkbox" id="todo-2" class="hidden-checkbox">
+                <label class="custom-checkbox" for="todo-2">
+                  <span class="checkmark">✔</span>
+                </label>
+                <label for="todo-2" class="todo-text">
+                gym
+                </label>
+                <button class="delete-button">
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash">
+                      <polyline points="3 6 5 6 21 6"></polyline>
+                      <path d="M19 6l-1 14H6L5 6"></path>
+                      <path d="M10 11v6"></path>
+                      <path d="M14 11v6"></path>
+                      <path d="M9 6V4h6v2"></path>
+                    </svg>
+                  </svg>
+                </button>
+              </li>
+          </ul>
+        </div>
+        </body>
+        </html> -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todo.css" />
+  <script src="todo.js" defer></script>
+</head>
+<body>
+  <h1>TODO APP</h1>
+  <div class="wrapper">
+    <form id="todo-form">
+      <input id="todo-input" type="text" placeholder="Write anything and hit enter" autocomplete="off" />
+      <button id="add-button" type="submit">ADD</button>
+    </form>
+
+    <ul id="todo-list">
+      <!-- Task: Cycling -->
+      <li class="todo">
+        <input type="checkbox" id="todo-1" class="hidden-checkbox" />
+        <label class="custom-checkbox" for="todo-1">
+          <span class="checkmark">✔</span>
+        </label>
+        <label for="todo-1" class="todo-text">cycling</label>
+        <button class="delete-button">
+          <!-- Trash Icon SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               class="feather feather-trash">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6l-1 14H6L5 6"></path>
+            <path d="M10 11v6"></path>
+            <path d="M14 11v6"></path>
+            <path d="M9 6V4h6v2"></path>
+          </svg>
+        </button>
+      </li>
+
+      <!-- Task: Gym -->
+      <li class="todo">
+        <input type="checkbox" id="todo-2" class="hidden-checkbox" />
+        <label class="custom-checkbox" for="todo-2">
+          <span class="checkmark">✔</span>
+        </label>
+        <label for="todo-2" class="todo-text">gym</label>
+        <button class="delete-button">
+          <!-- Trash Icon SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               class="feather feather-trash">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6l-1 14H6L5 6"></path>
+            <path d="M10 11v6"></path>
+            <path d="M14 11v6"></path>
+            <path d="M9 6V4h6v2"></path>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
